@@ -1,0 +1,32 @@
+.bg{
+    background: #FEDC58 !important;
+
+}
+.text-new{
+    color: #FEDC58;
+
+}
+.text-green {
+    color: #01db9c;
+  }
+  .text-red {
+    color: #f94c4c;
+  }
+  .trans, .trans:focus{
+    border: transparent !important;
+  }
+  @media only screen and (max-width: 767px) {
+    .md{
+     display: none;
+    }
+     }
+     @media only screen and (max-width: 992px) {
+      .lg{
+       display: none;
+      }
+    }
+     @media only screen and (max-width: 495px) {
+      .sm{
+       display: none;
+      }
+     }

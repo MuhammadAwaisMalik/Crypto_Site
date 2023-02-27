@@ -1,0 +1,117 @@
+{
+    "stock": [
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_upward (1).png",
+        "sub" : "0.14%",
+        "buy": 5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_up.png",
+        "sale": 1374.20
+      },
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_down.png",
+        "sub" : "0.14%",
+        "buy": -5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_down (1).png",
+        "sale": 1374.20
+      },
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_upward (1).png",
+        "sub" : "0.14%",
+        "buy": 5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_up.png",
+        "sale": 1374.20
+      },
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_down.png",
+        "sub" : "0.14%",
+        "buy": -5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_down (1).png",
+        "sale": 1374.20
+      },
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_upward (1).png",
+        "sub" : "0.14%",
+        "buy": 5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_up.png",
+        "sale": 1374.20
+      },
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_down.png",
+        "sub" : "0.14%",
+        "buy": -5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_down (1).png",
+        "sale": 1374.20
+      },
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_upward (1).png",
+        "sub" : "0.14%",
+        "buy": 5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_up.png",
+        "sale": 1374.20
+      },
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_down.png",
+        "sub" : "0.14%",
+        "buy": -5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_down (1).png",
+        "sale": 1374.20
+      },
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_upward (1).png",
+        "sub" : "0.14%",
+        "buy": 5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_up.png",
+        "sale": 1374.20
+      },
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_down.png",
+        "sub" : "0.14%",
+        "buy": -5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_down (1).png",
+        "sale": 1374.20
+      },
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_upward (1).png",
+        "sub" : "0.14%",
+        "buy": 5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_up.png",
+        "sale": 1374.20
+      },
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_down.png",
+        "sub" : "0.14%",
+        "buy": -5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_down (1).png",
+        "sale": 1374.20
+      },
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_upward (1).png",
+        "sub" : "0.14%",
+        "buy": 5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_up.png",
+        "sale": 1374.20
+      },
+      {
+        "stock": "AUD/USD",
+        "sub_image" : "../../assets/Crypto Market Web Design/arrow_down.png",
+        "sub" : "0.14%",
+        "buy": -5.8,
+        "trend": "../../assets/Crypto Market Web Design/arrow_drop_down (1).png",
+        "sale": 1374.20
+      }
+
+    ]
+}

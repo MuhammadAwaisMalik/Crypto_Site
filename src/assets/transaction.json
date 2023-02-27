@@ -1,0 +1,28 @@
+{
+    "stocks": [
+      {
+        "name": "Mark",
+        "date" : "12 Jun, 2023",
+        "price": 778.35,
+        "status": "Complete"
+      },
+      {
+        "name": "Mark",
+        "date" : "12 Jun, 2023",
+        "price": 778.35,
+        "status": "Complete"
+      },
+      {
+        "name": "Mark",
+        "date" : "12 Jun, 2023",
+        "price": 778.35,
+        "status": "Complete"
+      },
+      {
+        "name": "Mark",
+        "date" : "12 Jun, 2023",
+        "price": 778.35,
+        "status": "Complete"
+      }
+    ]
+}

@@ -1,0 +1,29 @@
+<div class="bg-header" id="indices">
+  <div class="container py-5">
+    <div class="row " style="color: #FAFAFA;">
+        <div class="col-12">
+            <h1 class="text-center fs-1">Indices</h1>
+        </div>
+        <div class="col-12 py-5">
+            <table class="table table-borderless" style="color: #FAFAFA;">
+                <thead class="bg-pink rounded">
+                  <tr class=" py-5">
+                    <th scope="col" class=" py-3 text-center">Stock</th>
+                    <th scope="col" class=" py-3 text-center">Buy</th>
+                    <th scope="col" class=" py-3 text-center">Trend</th>
+                    <th scope="col" class=" py-3 text-center">Sale</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of data">
+                    <td scope="row" class=" py-3 text-center">{{item.stock}}<br> <img src="{{item.sub_image}}" alt=""> {{item.sub}}</td>
+                    <td  class="text-center py-3 ">{{item.buy}}</td>
+                    <td  class="text-center py-3 "><img src="{{item.trend}}" alt=""></td>
+                    <td class="text-center py-3 ">@{{item.sale}}</td>
+                  </tr>
+         </tbody></table>
+        </div>
+    </div>
+</div>
+</div>
+<app-forex></app-forex>

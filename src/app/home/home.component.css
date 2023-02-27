@@ -1,0 +1,15 @@
+.heading{
+font-style: normal;
+line-height: 160%;
+letter-spacing: 0.5px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.des
+{
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+letter-spacing: 0.5px;
+color: #BBBBBB !important;
+}

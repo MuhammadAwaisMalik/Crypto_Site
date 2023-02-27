@@ -1,0 +1,39 @@
+.des {
+  line-height: 22px;
+
+  color: #ffffff;
+
+  opacity: 0.68;
+}
+.center-card {
+  border-radius: 28.4225px;
+}
+.btn-center-card {
+  color: #e1266e;
+  /* font-weight: bold; */
+}
+.card-content {
+  font-family: "Inter";
+  line-height: 23px;
+}
+.disabled {
+  /* color: #aca8a8; */
+  opacity: 0.4;
+}
+sub {
+  opacity: 0.7;
+}
+.trial-btn {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.box{
+  background-color: var(--good);
+}
+.choose-btn {
+  background: var(--choose);
+  color: var(--choose-color);
+}
+.other-card{
+  background-color: var(--card);
+}

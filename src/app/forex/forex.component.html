@@ -1,0 +1,177 @@
+<div class="bg-darke text-white" id="forex">
+  <div class="container py-5">
+    <div class="row ">
+        <div class="col-12">
+            <h1 class="text-center">Forex Data</h1>
+        </div>
+        <!-- <div class="col-12 py-3">
+            <img src="../../assets/Crypto Market Web Design/forex.png" alt="">
+        </div> -->
+        <div class="row bg-darked py-3">
+            <div class="col-12">
+                <div class="row">
+                    <div class=" col-md-8 col-12 py-3 py-md-0">
+                        <h2>Recent Trading Data</h2>
+                        <p class="d-md-inline-block d-none" >Lorem ipsum is placeholder text commonly.</p>
+                    </div>
+                    <div class="align-middle col-md-4 col-12 py-3 py-md-0">
+                        <ul class="nav" >
+                            <li class="nav-item">
+                              <button class="btn bg" >Monthly</button>
+                            </li>
+                            <li class="nav-item">
+                              <button class="btn " style="color: #FAFAFA;" >Weekly</button>
+                            </li>
+                            <li class="nav-item">
+                              <button class="btn " style="color: #FAFAFA;">Today</button>
+                            </li>
+                          </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12">
+                <table class="table" style="color: #FAFAFA;">
+                    <thead class="rounded">
+                      <tr class=" py-5">
+                        <th scope="col" class=" py-3">Name</th>
+                        <th scope="col" class=" py-3">Price</th>
+                        <th scope="col" class=" py-3 md">24H %</th>
+                        <th scope="col" class=" py-3 md">7D %</th>
+                        <th scope="col" class=" py-3 sm">Market CAP</th>
+                        <th scope="col" class=" py-3 sm">Volume (24TH)</th>
+                        <th scope="col" class=" py-3 lg">Circulating</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let item of data">
+                        <td scope="row" class=" py-3 align-middle"><img src="../../assets/Crypto Market Web Design/bitcoin.png" alt=""><span class="ps-2">{{item.name}}</span></td>
+                        <td  class=" py-3 align-middle">${{item.price}}</td>
+                        <td  class=" py-3 align-middle text-red md">{{item.for}}</td>
+                        <td  class=" py-3 text-green align-middle md">{{item.sevenD}}</td>
+                        <td class=" py-3 align-middle sm">{{item.MarketCAP}}</td>
+                        <td class=" py-3 align-middle sm">${{item.Volume}} <br> <span class="text-new">{{item.BTC}}BTC</span></td>
+                        <td class=" py-3 align-middle lg">{{item.Circulating}} BTC</td>
+                      </tr>
+                     </tbody></table>
+            </div>
+        </div>
+      
+        
+    </div>
+</div>
+<div class="bg-comodities-end py-5">
+  <div class="container">
+    <div class="row ">
+      <div class="col-12 ">
+        <div class="d-flex justify-content-between">
+          <h1 class="fw-bold fs-2">What Our Lovely Users Are Saying About Us</h1>
+          <div class="">
+            <a href="">
+              <p class="text-pink d-inline-block">See more 70 crypto</p>
+      
+              <img
+                src="../../assets/Crypto Market Web Design/arrow.svg"
+                class="px-2"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <div class="card pt-3 bg-transparent border">
+            <div class="text-center py-4">
+              <img src="../../assets/Crypto Market Web Design/qoutes.png" alt="">
+              <p class="py-4 px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+              <p><span>Deny Yudistira</span> <br> <span>CEO of TradeMirror</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 my-md-0 my-3">
+          <div class="card pt-3 bg-transparent border ">
+            <div class="text-center py-4">
+              <img src="../../assets/Crypto Market Web Design/qoutes.png" alt="">
+              <p class="py-4 px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+              <p><span>Deny Yudistira</span> <br> <span>CEO of TradeMirror</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card pt-3 bg-transparent border ">
+            <div class="text-center py-4">
+              <img src="../../assets/Crypto Market Web Design/qoutes.png" alt="">
+              <p class="py-4 px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+              <p><span>Deny Yudistira</span> <br> <span>CEO of TradeMirror</span></p>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+     </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row py-5">
+    <div class="col-md-7 col-12">
+     <div class="row">
+      <h2>Recent Article For You</h2>
+      <div class="col-lg-6 col-12"><img src="../../assets/Crypto Market Web Design/aricle (2).png" alt=""></div>
+   <div class="col-lg-6 col-12 py-5 ps-lg-5"><h2 class="h2">The Most Expensive Transaction on Ethereum Cost USD 23.5 Million</h2>
+    <p>The transaction was made with what is possibly the largest transaction fee ever to be paid in crypto.</p>
+    </div>
+     </div> 
+    
+      <div class="row">
+       <div class="col-lg-6 col-12"><img src="../../assets/Crypto Market Web Design/aricle (1).png" alt=""></div>
+    <div class="col-lg-6 col-12 py-5 ps-lg-5"><h2 class="h2">The Most Expensive Transaction on Ethereum Cost USD 23.5 Million</h2>
+     <p>The transaction was made with what is possibly the largest transaction fee ever to be paid in crypto.</p>
+     </div>
+      </div> 
+     </div>
+     <div class="col-md-2 col-12"></div>
+    <div class="col-md-3 col-12 ">
+      <h2>Other article</h2>
+   <div class="py-3">
+    <p class="text-pink">17-9-2021</p>
+    <h2>South Korean Taxman to Be Granted Right to</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing eli</p>
+   </div>
+   <div class="py-3">
+    <p class="text-pink">17-9-2021</p>
+    <h2>South Korean Taxman to Be Granted Right to</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing eli</p>
+   </div>
+   <div class="py-2">
+    <p class="text-pink">17-9-2021</p>
+    <h2>South Korean Taxman to Be Granted Right to</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing eli</p>
+   </div>
+     </div>
+  </div>
+</div>
+<div class="bg-comodities-end py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 bg-darked p-5">
+        <div class="row">
+          <div class="col-lg-8 col-12">
+            <h1>Stay up to date with our mailing list</h1>
+            <p>Stay up to date with our mailing list</p>
+          </div>
+          <div class="col-lg-4 col-12">
+            <div class="card border bg-transparent p-2 py-3">
+              <div class="input-group">
+                <input type="text" class="form-control  bg-transparent trans " placeholder="Enter Your E-Mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text bg-pink  trans" id="basic-addon2">Subscribe</span>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<app-footer></app-footer>
